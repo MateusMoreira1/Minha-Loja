@@ -1,0 +1,53 @@
+[
+  {
+    "id": "porsche-911-turbo-s",
+    "title": "Porsche 911 Turbo S",
+    "brand": "Porsche",
+    "model": "911 Turbo S",
+    "year": 2020,
+    "price": 850000,
+    "mileage": 28000,
+    "status": "Destaque",
+    "condition": "Seminovo",
+    "description": "Porsche 911 Turbo S — o ápice da engenharia e performance. Este supercarro excepcional combina potência brutalizante com tecnologia de ponta. Motor 3.8 twin-turbo com 650 cv de pura adrenalina. Aceleração de 0 a 100 km/h em apenas 2.7 segundos. Interior de luxo com revestimentos em couro nappa premium, assentos esportivos aquecidos e climatizados. Teto panorâmico retrátil, sistema de som Bose de última geração, navegação GPS avançada. Sistema de frenagem cerâmico de carbono, suspensão ativa adaptativa, tração integral inteligente. Cada detalhe reflete a excelência Porsche — tecnologia, desempenho e sofisticação em perfeita harmonia. Uma oportunidade única para possuir um ícone de velocidade e prestígio.",
+    "specs": {
+      "motor": "3.8 Twin-Turbo",
+      "cilindros": 6,
+      "cambio": "Automático 8 velocidades",
+      "potencia": "650 cv",
+      "torque": "800 Nm",
+      "cor": "Preto Profundo",
+      "portas": 2,
+      "combustivel": "Gasolina Premium",
+      "velocidade_maxima": "330 km/h"
+    },
+    "images": ["https://stat.overdrive.in/wp-content/odgallery/2020/05/56966_Porsche-911-Turbo-S_001.jpg"],
+    "createdAt": "2025-12-11T00:00:00Z"
+  },
+  {
+    "id": "mclaren-540c",
+    "title": "McLaren 540C",
+    "brand": "McLaren",
+    "model": "540C",
+    "year": 2019,
+    "price": 720000,
+    "mileage": 35000,
+    "status": "Disponível",
+    "condition": "Seminovo",
+    "description": "McLaren 540C — a declaração de intenção de supercarro acessível. Esta obra-prima da engenharia britânica oferece performance de nível elite a um preço mais realista. Motor V8 biturbo com 540 cv de pura potência, propulsionando este bólido de 0 a 100 km/h em 3.5 segundos. Design aerodinâmico inovador que corta o ar como uma faca. Interior de fibra de carbono e couro premium, oferecendo conforto e luxo sem precedentes. Sistema de suspensão adaptativa, frenagem de carbono-cerâmico, tração integral. Tecnologia McLaren de ponta incluindo sistema de amortecimento ativo, direção eletro-assistida de precisão. Teto panorâmico retrátil, sistema de som customizado, infotainment de última geração. Este é o supercarro para quem compreende performance, elegância e inovação. Uma oportunidade rara de possuir um ícone moderno da indústria automóvel.",
+    "specs": {
+      "motor": "3.8 V8 Twin-Turbo",
+      "cilindros": 8,
+      "cambio": "Automático 7 velocidades",
+      "potencia": "540 cv",
+      "torque": "540 Nm",
+      "cor": "Laranja McLaren",
+      "portas": 2,
+      "combustivel": "Gasolina Premium",
+      "velocidade_maxima": "320 km/h"
+    },
+    "images": ["https://www.actualidadmotor.com/wp-content/uploads/2017/08/McLaren-540C.jpg"],
+    "createdAt": "2025-12-11T12:30:00Z"
+  }
+]
+

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#1B2A49" stroke="#00FFFF" stroke-width="2"/>
+  
+  <!-- Car silhouette -->
+  <g transform="translate(50, 75)">
+    <!-- Wheel back -->
+    <circle cx="15" cy="55" r="8" fill="#00FFFF"/>
+    <circle cx="15" cy="55" r="5" fill="#1B2A49"/>
+    
+    <!-- Wheel front -->
+    <circle cx="75" cy="55" r="8" fill="#00FFFF"/>
+    <circle cx="75" cy="55" r="5" fill="#1B2A49"/>
+    
+    <!-- Car body -->
+    <path d="M 20 45 L 25 20 Q 30 15 40 15 L 50 15 Q 60 15 65 20 L 70 45 Z" fill="#00FFFF" stroke="#00FFFF" stroke-width="1.5"/>
+    
+    <!-- Car roof -->
+    <path d="M 30 20 Q 35 10 45 10 Q 55 10 60 20" fill="none" stroke="#00FFFF" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Windows -->
+    <rect x="28" y="18" width="12" height="8" fill="#1B2A49" rx="1"/>
+    <rect x="50" y="18" width="12" height="8" fill="#1B2A49" rx="1"/>
+    
+    <!-- Body detail line -->
+    <line x1="20" y1="40" x2="70" y2="40" stroke="#1B2A49" stroke-width="1"/>
+  </g>
+  
+  <!-- Text circle indicator -->
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#00FFFF" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Accent lines -->
+  <line x1="100" y1="15" x2="100" y2="30" stroke="#00FFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="100" y1="170" x2="100" y2="185" stroke="#00FFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="15" y1="100" x2="30" y2="100" stroke="#00FFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="170" y1="100" x2="185" y2="100" stroke="#00FFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

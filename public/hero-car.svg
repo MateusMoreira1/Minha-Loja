@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#E6FBFF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)" />
+  <g transform="translate(80,160)">
+    <rect x="0" y="220" width="1040" height="220" rx="28" fill="#1B2A49" opacity="0.06"/>
+    <g>
+      <rect x="40" y="120" width="860" height="220" rx="20" fill="#072227"/>
+      <rect x="40" y="120" width="860" height="140" rx="18" fill="#00FFFF" opacity="0.06"/>
+      <circle cx="180" cy="320" r="44" fill="#072227" opacity="0.12"/>
+      <circle cx="920" cy="320" r="44" fill="#072227" opacity="0.12"/>
+    </g>
+    <text x="40" y="80" font-family="Inter, Arial, sans-serif" font-size="48" fill="#1B2A49" font-weight="700">Mateus Multimarcas</text>
+    <text x="40" y="120" font-family="Inter, Arial, sans-serif" font-size="28" fill="#42506A">Onde seu sonho de carro se torna realidade.</text>
+  </g>
+</svg>

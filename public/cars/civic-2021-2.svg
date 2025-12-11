@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6FBFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#carGrad)"/>
+  <g transform="translate(50,100)">
+    <rect x="0" y="240" width="800" height="180" rx="20" fill="#f5f7fa"/>
+    <g>
+      <ellipse cx="200" cy="320" rx="45" ry="50" fill="#1B2A49" opacity="0.15"/>
+      <ellipse cx="600" cy="320" rx="45" ry="50" fill="#1B2A49" opacity="0.15"/>
+      <rect x="50" y="80" width="600" height="120" rx="16" fill="#1B2A49" opacity="0.08"/>
+      <path d="M 100 200 L 150 140 L 200 160 L 250 120 L 300 150 L 350 100 L 400 140 L 450 110 L 500 150 L 550 130 L 600 160" stroke="#00FFFF" strokeWidth="2" fill="none" opacity="0.4"/>
+    </g>
+    <text x="0" y="30" font-family="Inter, Arial" font-size="36" fill="#1B2A49" font-weight="700">Galeria - Civic 2021</text>
+    <text x="0" y="65" font-family="Inter, Arial" font-size="16" fill="#6b7280">Veículo em perfeito estado • 45.000 km</text>
+  </g>
+</svg>

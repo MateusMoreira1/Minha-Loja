@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B2A49;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00FFFF;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bgGrad)"/>
+  <circle cx="100" cy="80" r="35" fill="#00FFFF" opacity="0.3"/>
+  <circle cx="100" cy="80" r="30" fill="none" stroke="#00FFFF" stroke-width="2" opacity="0.5"/>
+  <text x="100" y="90" font-family="Inter, Arial" font-size="48" font-weight="700" fill="#FFFFFF" text-anchor="middle">M</text>
+  <rect x="30" y="130" width="140" height="50" rx="10" fill="#00FFFF" opacity="0.1"/>
+  <text x="100" y="155" font-family="Inter, Arial" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">Mateus</text>
+  <text x="100" y="170" font-family="Inter, Arial" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">Multimarcas</text>
+</svg>
