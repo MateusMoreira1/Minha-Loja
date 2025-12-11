@@ -12,7 +12,7 @@ export async function PUT(
     return Response.json({ error: 'Não autorizado' }, { status: 401 });
   }
 
-  const id = await Promise.resolve(params.id);
+  const id = params.id;
   const body = await request.json();
   const updated = updateVehicle(id, body);
 
