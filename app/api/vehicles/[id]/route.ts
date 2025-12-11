@@ -1,10 +1,9 @@
 import { getVehicles, getVehicleById } from '@/lib/vehicleUtils';
 
-export async function GET(
-  request: Request,
-  { params }: { params: { id: string } }
-) {
-  const id = params.id;
+export async function GET(request: any, context: any) {
+  // Context may provide `params` either as an object or as a Promise depending on environment.
+  const paramsObj = context?.params && typeof context.params.then === 'function' ? await context.params : context?.params;
+  const id = paramsObj?.id;
   const vehicle = getVehicleById(id);
 
   if (!vehicle) {
